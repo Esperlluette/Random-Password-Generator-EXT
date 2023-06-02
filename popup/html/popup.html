@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="../css/popup.css">
+</head>
+
+<body>
+    <div class="content">
+
+        <div id="showbox" class="show-password"></div>
+
+        <form>
+            <label for="fsize">Longueur</label>
+            <input type="number" id="fname" min="12" max="25" name="fname" placeholder="12-25"><br>
+            <label for="fspecial">Inlcure des caractères spécials </label>
+            <input type="radio" name="fspecials" id="fspecial" value="true"><br>
+            <label for="fnumber">Inlcure des nombres</label>
+            <input type="radio" name="fspecials" id="fnumber" value="true"><br>
+            <button class="GenPass" type="submit"> Générer</button>
+        </form>
+
+
+
+
+        <!-- 
+        <div id="showbox" class="show-password"></div>
+
+        <div class="input_number">
+
+            <input class="size" min="12" max="25" type="number" name="" id="size" placeholder="Longueur">
+            <p>la taille est comprise entre 12 et 25 </p>
+
+
+        </div>
+        <input type="radio" id="age1" name="age" value="30">
+        <label for="age1"></label><br><input type="radio" id="age1" name="age" value="30">
+        <label for="age1">0 - 30</label><br>
+        <button class="GenPass" type="submit">Generate Password</button> -->
+
+    </div>
+    <script src="../js/popup.js"></script>
+</body>
+
+</html>
